@@ -1,0 +1,19 @@
+<suite name = "Practico 12 - Test">
+    <test name = "Ejercicios de clase">
+        <parameter name = "specificTag" value = "h1"></parameter>
+        <parameter name = "browserType" value = ""></parameter>
+
+        <group>
+            <run>
+                <include name = "failureTest"></include>
+            </run>
+        </group>
+
+        <classes>
+            /*<class name = "test.practico12.TestngNotations"></class>
+            <class name = "test.practico12.testngSpotify"></class>*/
+            <class name = "test.practico12.ParametersTests"></class>
+        </classes>
+
+    </test>
+</suite>
